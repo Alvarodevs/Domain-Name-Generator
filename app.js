@@ -16,13 +16,10 @@ function allDomains (pronoun, adj, noun, domain){
                 for (l = 0; l < domain.length; l++){
                     result.push(pronoun[i] + adj[h] + noun[j] + domain[l]);}
             }
-        
         }
     }
-
     // return result.push(pronoun[i] + adj[h] + noun[j] + domain[l]);
     return result;
-
 }
 console.log(allDomains(pronoun, adj, noun, domain));
 
